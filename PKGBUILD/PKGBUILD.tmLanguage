@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>.PKGBUILD</string>
+		<string>PKGBUILD</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\{</string>
