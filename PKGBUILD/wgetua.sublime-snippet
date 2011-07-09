@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+DLAGENTS=('http::/usr/bin/wget -c -t 3 --waitretry=3 -H -U Mozilla -O %o %u')
+${0}]]></content>
+    <tabTrigger>wgetu</tabTrigger>
+    <scope>source.PKGBUILD</scope>
+    <description>wget with UA</description>
+</snippet>
