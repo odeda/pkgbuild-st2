@@ -1,17 +1,3 @@
-# ST2Commands: makepkg, makepkg_src, makepkg_gen, namcap_check
-# Main menu entry:
-# {
-# "caption": "PKGBUILD Tools",
-# "mnemonic": "P",
-# "children":
-#     [
-#         { "caption": "Build Package", "mnemonic": "B", "command": "makepkg" },
-#         { "caption": "Generate MD5", "mnemonic": "D", "command": "makepkg_gen" },
-#         { "caption": "Generate Source", "mnemonic": "S", "command": "makepkg_src" },
-#         { "caption": "Validate", "mnemonic": "V", "command": "namcap_check"}
-#     ]
-# }
-
 import os
 import sublime
 import sublime_plugin
