@@ -6,18 +6,17 @@ build() {
   cd $srcdir
   msg "Connecting to GIT server...."
 
-  if [ -d $_gitname ] ; then
+  if [ -d \$_gitname ] ; then
     cd $_gitname && git pull origin
     msg "The local files are updated."
   else
-    git clone $_gitroot
+    git clone \$_gitroot
   fi
 
   msg "GIT checkout done or server timeout"
   msg "Starting make..."
 
-  rm -rf $srcdir/$_gitname-build
-  git clone $srcdir/$_gitname $srcdir/$_gitname-build
+  rm -rf \$srcdir/\$_gitname-build
 
   ${0}
 }]]></content>
