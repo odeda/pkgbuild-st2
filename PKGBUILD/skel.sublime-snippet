@@ -9,6 +9,12 @@ pkgdesc="${6}"
 arch=(${7})
 url="${8}"
 license=('${9}')
+depends=()
+makedepends=()
+optdepends=()
+source=()
+install=()
+md5sums=()
 ${0}
 ]]></content>
     <tabTrigger>skel</tabTrigger>
