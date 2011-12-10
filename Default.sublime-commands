@@ -1,0 +1,11 @@
+[
+    {
+        "caption": "PKGBUILD: Package validation", "command": "namcap_check"
+    },
+    {
+        "caption": "PKGBUILD: Generate md5sum", "command": "makepkg_gen"
+    },
+    {
+        "caption": "PKGBUILD: Source package", "command": "makepkg_src"
+    }
+]
