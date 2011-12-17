@@ -1,11 +1,6 @@
 [
-    {
-        "caption": "PKGBUILD: Package validation", "command": "namcap_check"
-    },
-    {
-        "caption": "PKGBUILD: Generate md5sum", "command": "makepkg_gen"
-    },
-    {
-        "caption": "PKGBUILD: Source package", "command": "makepkg_src"
-    }
+    { "caption": "PKGBUILD: Namcap validation", "command": "namcap_check" },
+    { "caption": "PKGBUILD: Generate md5sum", "command": "makepkg_gen" },
+    { "caption": "PKGBUILD: Create source package", "command": "makepkg_src" },
+    { "caption": "PKGBUILD: Make package", "command": "makepkg" }
 ]
