@@ -4,11 +4,12 @@ A bunch of random stuff (seriously)hacked together to make PKGBUILDing more  ple
 ## Included:
 
  - tmLanguage (Basically ripped and modified Generic Shell)
- - Build system (clean makepkg build)
+ - Build system (clean *forced* makepkg build)
  - Plugin to provide in-app command interface:
     - Namcap PKGBUILD validation - `namcap_check`
     - MD5 generation - `makepkg_gen`
     - Source packaging - `makepkg_src`
+    - Package source extraction - `makepkg_ext`
  - Snippets
 
 ## Install:
@@ -20,10 +21,9 @@ Place PKGBUILD folder in Packages/ dir
  "children":
      [
          { "caption": "Build Package", "mnemonic": "B", "command": "makepkg" },
-         { "caption": "Generate MD5", "mnemonic": "D", "command": "makepkg_gen" },
-         { "caption": "Generate Source", "mnemonic": "S", "command": "makepkg_src" },
-         { "caption": "Validate", "mnemonic": "V", "command": "namcap_check"}
+         ...
+         ...
      ]}`
 
 ## Licence
-GPLv3
+GPL
